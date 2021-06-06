@@ -49,7 +49,6 @@ body {
   height: 3px;
   background: #0056EC;
 }
-
 .menu__item:hover {
   opacity: 0,5;
 }
@@ -64,12 +63,10 @@ body {
   opacity: 0; 
   transition: opacity 0.5s, width 0.5s;
  }
-
 .menu__item:hover:after, .menu__item_active::after {
   opacity: 1;
   width: 100%;
  }
-
 .main-content__subtitle {
    font-family: Roboto;
 }
