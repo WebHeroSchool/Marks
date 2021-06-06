@@ -1,7 +1,17 @@
 
 body {
+  margin: 0;
+  border: dashed 1px red;
   font-family: Roboto;
 }
 .main-content__title {
   font-family: Roboto
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px;
+}
+.header {
+  border: dashed 1px red;
 }
