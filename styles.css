@@ -1,11 +1,13 @@
 
 .main-content__title {
-  margin: 0 0 40px 0;
-  font: bold 50px/65px pt-serif, arial, helvetica, sans-serif;
+  padding-top: 13%;
+  padding-left: 5px;
+  font: bold 66px/87.45px pt-serifbold, arial, helvetica, sans-serif;
 }
 .main-section {
   padding: 0 63% 100px 0;
   background: top right no-repeat url(img/mainimg.svg);
+  backriund-size: 50%;
 }
 .main__title-text_highlight {
   background: #ECF3FF;
@@ -21,7 +23,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;               }
+  margin-bottom: 130px;               }
 .menu {
   display: flex;
   align-items: center;
@@ -65,26 +67,25 @@ body {
   left: 0;
   display: block;
   content: "";
-  width: 0;
+  width: 100%;
   height: 3px;
   background: #0056EC; 
-  opacity: 0; 
-  transition: opacity 0.5s, width 0.5s;
  }
 .menu__item:hover:after, .menu__item_active::after {
   opacity: 1;
   width: 100%;
  }
 .main-content__subtitle {
-   margin:0 0 41px 0;
-   font: 18px/21px Roboto, arial, helvetica, sans-serif;
+   margin-left: 6px;
+   margin-right: 100px;
+   font: 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 .main-content__button {
   display: inline-block;
-  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  font:500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 14px 16px
+  padding: 18px 32px
   text-decoration: none;
   border-radius: 4px;
   transition: opacity: .5s;
@@ -94,7 +95,7 @@ body {
 }
 .logo {
   position: relative;
-  padding: 40px 0px;
+  padding: 40px 0;
   padding-left: 44px; 
   font-family: pt_serifregular, arial, helvetica, sans-serif;
   font-weight: bold;
@@ -119,3 +120,8 @@ body {
 .logo__circle_color_dark-blue {
   background: #0056EC;
 }
+p {
+  color: green;
+front-family: 'pt_serifbold';
+}
+
