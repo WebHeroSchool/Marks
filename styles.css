@@ -7,7 +7,7 @@
 .main-section {
   padding: 0 63% 100px 0;
   background: top right no-repeat url(img/mainimg.svg);
-  backriund-size: 50%;
+  background-size: 50%;
 }
 .main__title-text_highlight {
   background: #ECF3FF;
