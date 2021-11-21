@@ -7,7 +7,7 @@
 .main {
   padding: 0 63% 171px 0;
   background: 99.7% 0% / 50.4% no-repeat url(img/mainimg.svg);
-  padding-top: 74px;
+  padding-top: 73px;
 }
 .main__title-text_highlight {
   background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
@@ -20,20 +20,20 @@ body {
   width: 79.6%;
 }
 .header {
-  padding-top: 3px;
+  padding-top: 0px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 137px;
+  margin-bottom: 122px;
 }
 .menu {
   display: flex;
   align-items: center;
-  margin: 15px 2px 5px 0px;
+  margin: 0px 6px 8px 9px;
 }
 .menu__item {
   position: relative;
-  margin-right: 28px;
-  font: 500 18px/21px "Roboto", sans-serif;
+  margin-right: 26px;
+  font: 500 18px/20px "Roboto", sans-serif;
   font-weight: bold;
   color: #000;
   text-decoration: none;
@@ -80,9 +80,9 @@ body {
  }
 .main__subtitle {
   font: 400 22px/26px "Roboto", sans-serif;
-  padding: 38px 140px 0 0;
+  padding: 34px 140px 0 0;
   margin: 0;
-  margin-bottom: 59px;
+  margin-bottom: 60px;
 }
 .main__button {
   font: 500 18px/21px "Roboto", sans-serif;
@@ -91,14 +91,14 @@ body {
   text-decoration: none;
   border-radius: 5px;
   transition: opacity 0.5s;
-  padding: 19px 38px 18px 21px;
+  padding: 14px 34px 19px 21px;
 }
 .main__button:hover {
   opacity: .5;
 }
 .logo {
-  padding: 36px 10px 33px 36px;
-  margin: 0px 0 0 9px;
+  padding: 40px 10px 33px 36px;
+  margin: 0px 13px 17px 9px;
   position: relative;
 }
 .logo__title {
@@ -164,22 +164,22 @@ body {
 }
 .logo {
   font: 700 24px/31px "PT Serif", sans-serif;
-  padding: 38px 9px 33px 38px;
-  margin: 0px 0 0 11px;
+  padding: 38px 9px 33px 36px;
+  margin: 1px 7px 19px 13px;
 }
 .menu__item {
-  margin-right: 24px;
-  font: 500 15px/20px "Roboto", sans-serif;
+  margin-right: 26px;
+  font: 500 14px/20px "Roboto", sans-serif;
   font-weight: bold;
 }
 .menu {
-  margin: 16px 2px 8px 8px;
+  margin: 7px 7px 16px 15px;
 }
 .main__title {
   font: 700 50px/66px "PT Serif", sans-serif;
 }
 .header {
-  margin-bottom: 33px;
+  margin-bottom: 14px;
 }
 .main{
   padding-right: 53%;
@@ -189,12 +189,12 @@ body {
 .main__subtitle {
   padding-right: 80px;
   font: 500 18px/21px "Roboto", sans-serif;
-  padding: 37px 89px 9px 4px;
+  padding: 39px 89px 9px 4px;
   margin-bottom: 46px;
 }
 .main__button {
   font: 500 14px/16px "Roboto", sans-serif;
-  padding: 14px 28px 14px 22px;
+  padding: 12px 26px 13px 21px;
 }
 .point1 {
   top: 722px;
@@ -209,7 +209,7 @@ body {
 
 @media (max-width:1024px) {
 .wrapper {
-  width: 91.6%;
+  width: 93.6%;
 }
 .menu__item {
   margin-right: 26px;
@@ -217,28 +217,32 @@ body {
   font-weight: bold;
 }
 .menu {
-margin: 18px 4px 7px 7px;
+margin: 8px 13px 14px 9px;
 }
 .main {
   background: 96.7% 0% / 53.4% no-repeat url(img/mainimg.svg);
-  padding-top: 12px;
+  padding-top: 16px;
   padding-right: 53%;
+  padding-left: 13px;
 }
-
+.logo {
+  margin-left:23px;
+}
 .header {
-  margin-bottom: 96px;
+  margin-bottom: 72px;
 }
 .main__title {
   font: 700 50px/66px "PT Serif", sans-serif;
 }
 .main__subtitle {
   font: 600 18px/21px "Roboto", sans-serif;
-  padding-right: 79px;
+  padding-right: 60px;
   margin-bottom: 46px;
+  padding-left: 0px;
 }
 .main__button {
   font: 500 14px/16px "Roboto", sans-serif;
-  padding: 15px 28px 14px 19px;
+  padding: 13px 25px 13px 17px;
 }
 .point1 {
   top: 722px;
@@ -262,22 +266,23 @@ margin: 18px 4px 7px 7px;
   display:none;
 } 
 .wrapper {
-  margin-left: 38px;
+  margin-left: 32px;
+  margin-top: 3px;
   width: 83.4%;
 }   
 .header {
-  margin-bottom:11px;
+  margin-bottom:7px;
 }
 .main {
   text-align: center;
   padding: 74% 0 0;
-  background-size: 93%;
+  background-size: 90%;
   background-position: top center;
 }
 .main__title {
   margin-bottom: 0px;
   font: bold 34px/39px pt_serif,  normal;
-  margin-top: 37px;
+  margin-top: 30px;
   margin-left: 0px;
   padding-right: 17px;
   padding-left: 22px;
@@ -296,7 +301,7 @@ margin: 18px 4px 7px 7px;
 }
 .logo {
   padding: 6px 6px 51px 26px;
-  margin: 7px 13px 12px -3px;
+  margin: 7px 13px 12px 2px;
 }
  
 #menu__toggle {
