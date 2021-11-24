@@ -184,12 +184,12 @@ body {
   font: 700 50px/66px "PT Serif", sans-serif;
 }
 .header {
-  margin-bottom: 14px;
+  margin-bottom: 69px;
 }
 .main{
+  padding-top: 18px;
   padding-right: 53%;
-  background: 97.7% 0% / 55.4% no-repeat url(img/Frame.svg);
-  background-position: 418px 56px;   
+  background: 97.7% 0% / 55.4% no-repeat url(img/Frame.svg); 
 }
 .main__subtitle {
   padding-right: 80px;
