@@ -230,7 +230,7 @@ margin: 8px 13px 14px 9px;
 .main {
   background: 96.7% 0% / 53.4% no-repeat url(img/mainimg.svg);
   padding-top: 16px;
-  padding-right: 53%;
+  padding-right: 41%;
   padding-left: 13px;
 }
 .logo {
@@ -244,7 +244,7 @@ margin: 8px 13px 14px 9px;
 }
 .main__subtitle {
   font: 600 18px/21px "Roboto", sans-serif;
-  padding-right: 60px;
+  padding-right: 200px;
   margin-bottom: 46px;
   padding-left: 0px;
 }
@@ -262,6 +262,7 @@ margin: 8px 13px 14px 9px;
   top: 722px;
 }
 }
+
 
 #menu__toggle {
   display: none;
@@ -319,7 +320,7 @@ margin: 8px 13px 14px 9px;
   .burger__menu {
     display: block;
     width: 100%;
-    margin: 0;
+    margin: -5px;
     padding: 0;
     background-color: #fff;
     height: 60px;
@@ -425,9 +426,9 @@ margin: 8px 13px 14px 9px;
       margin: 0;
    }
 
+@media (max-width:430px) {
 
-
-
+  }
   }
 
 
