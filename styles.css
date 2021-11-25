@@ -7,7 +7,7 @@
   margin: 0;
 }
 .main {
-  padding: 0 63% 171px 0;
+  padding: 0 51% 171px 0;
   background: 99.7% 0% / 50.4% no-repeat url(img/mainimg.svg);
   padding-top: 73px;
 }
@@ -213,6 +213,18 @@ body {
   top: 722px;
 }
 }
+@media (max-width:1226px) {
+.burger__menu {
+  display: none;
+}
+.main__title {
+  font: 700 42px/51px "PT Serif", sans-serif;
+}
+.main__subtitle {
+  padding-right: 0px;
+  font-size: 16px;
+}
+}
 
 @media (max-width:1024px) {
 .burger__menu {
@@ -245,6 +257,7 @@ margin: 8px 13px 14px 9px;
   font: 700 50px/66px "PT Serif", sans-serif;
 }
 .main__subtitle {
+  font-size: 18px;
   font: 600 18px/21px "Roboto", sans-serif;
   padding-right: 215px;
   margin-bottom: 46px;
@@ -273,8 +286,20 @@ margin: 8px 13px 14px 9px;
   padding-left: 0px;
   margin-right: 25px;
 }
+.main__subtitle {
+  font-size: 16px;
+}
 .main__title {
   font: 700 44px/60px "PT Serif", sans-serif;
+}
+ point1 {
+ display:none;
+}
+.point2 {
+  display:none;
+}
+.point3 {
+  display:none;
 }
 }
 
@@ -449,9 +474,6 @@ point1 {
       margin: 0;
    }
 
-@media (max-width:430px) {
 
-  }
-  }
 
 
