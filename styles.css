@@ -7,7 +7,7 @@
   margin: 0;
 }
 .main {
-  padding: 0 51% 171px 0;
+  padding: 0 51% 230px 0;
   background: 99.7% 0% / 50.4% no-repeat url(img/mainimg.svg);
   padding-top: 73px;
 }
@@ -82,7 +82,7 @@ body {
  }
 .main__subtitle {
   font: 400 22px/26px "Roboto", sans-serif;
-  padding: 34px 140px 0 0;
+  padding: 34px 280px 0 0;
   margin: 0;
   margin-bottom: 60px;
 }
@@ -292,7 +292,7 @@ margin: 8px 13px 14px 9px;
 .main__title {
   font: 700 44px/60px "PT Serif", sans-serif;
 }
- point1 {
+.point1 {
  display:none;
 }
 .point2 {
