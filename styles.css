@@ -469,6 +469,8 @@ point1 {
     display: none;
   }
   #menu__toggle:checked ~ .menu__box{
+      height: 100vh;
+      max-height: 100vh;
       visibility: visible;
       left: 0;
       margin: 0;
