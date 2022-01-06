@@ -7,7 +7,7 @@
   margin: 0;
 }
 .main {
-  padding: 0 51% 230px 0;
+  padding: 0 51% 430px 0;
   background: 99.7% 0% / 50.4% no-repeat url(img/mainimg.svg);
   padding-top: 73px;
 }
@@ -185,11 +185,11 @@ body {
   font: 700 50px/66px "PT Serif", sans-serif;
 }
 .header {
-  margin-bottom: 69px;
+  margin-bottom: 58px;
 }
 .main{
   padding-left: 4px;
-  padding-top: 19px;
+  padding-top: 30px;
   padding-right: 53%;
   background: 98.3% 4% / 54.5% no-repeat url(img/Frame.svg); 
 }
@@ -457,13 +457,15 @@ point1 {
     font: 500 30px/35px 'Roboto';
   }
   #menu__toggle:checked ~ .first {
-    display: none;
+   transform: rotate(45deg);
   }
   #menu__toggle:checked ~ .second {
-    transform: rotate(45deg);
+    top: 0;
+    transform: rotate(0);
   }
   #menu__toggle:checked ~ .third {
-    transform: rotate(-45deg);
+    top: 0;
+    transform: rotate(90deg);
   }
   #menu__toggle:checked ~ .fourth {
     display: none;
@@ -476,6 +478,7 @@ point1 {
       margin: 0;
    }
 
+ }
 
 
 
